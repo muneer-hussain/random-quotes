@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #686de0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 96vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#quote-container {
+    background-color: #fff;
+    padding-bottom: 15px;
+    width: 50vw;
+    height: fit-content;
+    line-height: 1.5;
+    font-family: inherit;
+    font-size: 22px;
+    border-radius: 30px;
+}
+
+#newQuoteBtn {
+    background-color: #5372f0;
+    border: none;
+    outline: none;
+    padding: 14px 12px;
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 4px 10px #686de0;
+    border-radius: 10px;
+}
+
+#author {
+    text-align: right;
+    margin-top: 0px;
+    font-size: 18px;
+    margin-right: 30px;
+}
+
+#quotes {
+    display: inline-block;
+    margin: 30px 15px;
+}
+
+
+/* media queries  */
+
+@media(max-width: 600px) {
+    #quote-container {
+        width: 90vw;
+        height: fit-content;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    #author {
+        font-size: 18px;
+    }
+}
